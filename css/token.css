@@ -1,0 +1,43 @@
+:root{
+
+/* Colors */    
+--navy-blue-100: #222831;
+--navy-blue-80:#222831 0.8%;
+--color-white-100:#FFFFFF;
+--color-black-100: #000000;
+--color-skyblue-90: #88EBEF 0.9;
+--color-light-navy-blue-100: #272E37;
+
+/* Font Sizes */
+--font-size-12: 12px;
+--font-size-14: 14px;
+--font-size-20: 20px;
+--font-size-24: 24px;
+--font-size-26: 26px;
+--font-size-30: 30px;
+--font-size-36: 36px;
+--font-size-50: 50px;
+
+--font-family-monserrat: 'Montserrat', sans-serif;
+
+--heading-font-primary: var(--font-family-monserrat);
+
+
+/* Heading Sizes */
+--heading-sm:var(--font-size-14);
+--heading-md:var(--font-size-20);
+--heading-lg:var(--font-size-24);
+
+
+/* Border Radius */
+--border-radius-10: 10px;
+--border-radius-24: 24px;
+--border-radius-30: 30px;
+
+
+--border-round-day-panel: var(--border-radius-30);
+--border-round-day-forecast-panel: var(--border-radius-24);
+--border-radius-day:var(--border-radius-10)
+
+
+}
