@@ -8,6 +8,14 @@
 --color-skyblue-90: #88EBEF 0.9;
 --color-light-navy-blue-100: #272E37;
 
+/* Design */
+
+--app-background-color: var(--navy-blue-100);
+--panel-background-color: var(--color-light-navy-blue-100);
+
+/* typography */
+--primary-text-color: var(--color-white-100);
+
 /* Font Sizes */
 --font-size-12: 12px;
 --font-size-14: 14px;
@@ -18,9 +26,15 @@
 --font-size-36: 36px;
 --font-size-50: 50px;
 
---font-family-monserrat: 'Montserrat', sans-serif;
+/* Font Families */
+
+--font-family-montserrat: 'Montserrat', sans-serif;
 
 --heading-font-primary: var(--font-family-monserrat);
+
+
+/* Text Sizes */
+--regular-text: var(--font-size-24);
 
 
 /* Heading Sizes */
