@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/token.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -20,13 +23,14 @@
                     <h2 class="day-panel-title">Monday</h2>
                     <p class="day-panel-date">20 Jun 2025</p>
                     <div class="day-panel-location">
-                        <span class="location-icon">📍</span>
                         <span>Florida</span>
                     </div>
                 </div>
                 
                 <div class="temperature-container">
-                    <div class="weather-icon">☀️</div>
+                    <div class="weather-icon">
+                        <img src="images/sun.png" alt="Sunny weather" class="weather-icon-img">
+                    </div>
                     <div class="temperature-content">
                         <div class="temperature">29 °C</div>
                         <div class="weather-description">Sunny</div>
@@ -126,33 +130,47 @@
                 <div class="weekly-forecast-items">
                     <div class="forecast-card">
                         <div class="forecast-day">Tue</div>
-                        <div class="forecast-icon">☀️</div>
+                        <svg class="forecast-icon-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Sun rays -->
+                            <g stroke="currentColor" stroke-width="3" stroke-linecap="round">
+                                <line x1="50" y1="10" x2="50" y2="20"/>
+                                <line x1="50" y1="80" x2="50" y2="90"/>
+                                <line x1="10" y1="50" x2="20" y2="50"/>
+                                <line x1="80" y1="50" x2="90" y2="50"/>
+                                <line x1="20.7" y1="20.7" x2="27.5" y2="27.5"/>
+                                <line x1="72.5" y1="72.5" x2="79.3" y2="79.3"/>
+                                <line x1="79.3" y1="20.7" x2="72.5" y2="27.5"/>
+                                <line x1="27.5" y1="72.5" x2="20.7" y2="79.3"/>
+                            </g>
+                            <!-- Sun circle -->
+                            <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="3"/>
+                        </svg>
                         <div class="forecast-temp">30 °C</div>
                     </div>
                     <div class="forecast-card inactive">
                         <div class="forecast-day">Wed</div>
-                        <div class="forecast-icon">⛅</div>
+                        <img src="images/cloudysun.png" alt="Cloudy with sun" class="forecast-icon-img">
                         <div class="forecast-temp">22 °C</div>
                     </div>
                     <div class="forecast-card inactive">
                         <div class="forecast-day">Thu</div>
-                        <div class="forecast-icon">🌧️</div>
+                        <img src="images/raincloud.png" alt="Rain" class="forecast-icon-img">
                         <div class="forecast-temp">06 °C</div>
                     </div>
                     <div class="forecast-card inactive">
                         <div class="forecast-day">Fri</div>
-                        <div class="forecast-icon">⛅</div>
+                        <img src="images/cloudysun.png" alt="Cloudy with sun" class="forecast-icon-img">
                         <div class="forecast-temp">26 °C</div>
                     </div>
                     <div class="forecast-card inactive">
                         <div class="forecast-day">Sat</div>
-                        <div class="forecast-icon">☀️</div>
+                        <img src="images/sun.png" alt="Sunny" class="forecast-icon-img">
                         <div class="forecast-temp">28 °C</div>
                     </div>
                 </div>
 
                 <div class="location-footer">
-                    <span class="location-footer-icon">📍</span>
+                    <span>📍</span>
                     <span>Biarritz</span>
                 </div>
             </div>
